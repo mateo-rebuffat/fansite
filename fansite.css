@@ -1,0 +1,92 @@
+
+
+body {
+    font-family: 'Mitr', sans-serif;
+    background-color: #37123C;
+    color: #78C091;
+}
+
+header {
+    background-color: #37123C;
+    color: #78C091;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul li a {
+    color:#DDA77B;
+}
+
+section {
+    background-color: #78C091 ;
+    color: #290547;
+    margin: 20px 0;
+    padding: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #333;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px 0;
+}
+
+#media {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Marge entre les images */
+}
+#media img {
+    width: calc(33.33% - 10px);
+    height: auto;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.affiche-de-drive {
+    width: 300px;
+    height: auto;
+}
+
+#actualite img {
+    width: 150px;
+    height: auto;
+}
+
+h1 {
+    background: rgba(147, 5, 162, 0.1);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border: 1px solid rgba(147, 5, 162, 0.44);
+    /* Autres styles spécifiques au titre si nécessaire */
+}
+
